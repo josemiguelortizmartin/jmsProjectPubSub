@@ -32,7 +32,6 @@ public class Main {
 
 	@RequestMapping("/producir")
 	public String producirMensajeJMS() throws JMSException {
-		logger.info("cambio para conflicto22");
 		logger.info("Se va a crear un mensaje JMS.");
 
 		Date d = new Date();
